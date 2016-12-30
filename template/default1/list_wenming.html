@@ -1,0 +1,46 @@
+{xiao:template header.html}
+<!--创建文明专栏列表 开始-->
+<div class="div1002">
+    <div class="mainbox" style="margin-top:0px">
+        <!--页面左侧内容 开始-->
+        {xiao:template left.html}
+        <!--页面左侧内容 结束-->
+
+        <!--页面右侧内容 开始-->
+        <div class="right leftbox">
+            <div class="dqlanmu dqwztit">您当前所在的位置 ： <a href="{xiao:$site_url}">首页</a> >> {xiao:function.position($catid,' >> ')}</div>
+            <div class="border navjz" id="mm2">
+                <div>
+                    <table border="0" cellspacing="0" cellpadding="0" width="100%" height="25">
+                        <tbody>
+                            <tr>
+                                <td><img border="0" src="{xiao:$site_template}images/First.gif"> &nbsp;<img border="0" src="{xiao:$site_template}images/Previous.gif"> &nbsp;第 <font color="#FF0000">1</font> 页 &nbsp;<a href="/Tmp/Nav_fagui.shtml?whichpage=2&amp;SS_ID=51"><u><img border="0" src="{xiao:$site_template}images/Next.gif"></u></a> &nbsp;<a href="/Tmp/Nav_fagui.shtml?whichpage=6&amp;SS_ID=51"><u><img border="0" src="{xiao:$site_template}images/Last.gif"></u></a> &nbsp;共 <font color="#FF0000">6</font> 页 <font color="#FF0000">61</font> 条 &nbsp;</td>
+                                <td align="right">&nbsp;&nbsp;<select name="toPage" onchange="location.href='/Tmp/Nav_fagui.shtml?whichpage=' + this.options[this.selectedIndex].value + '&amp;SS_ID=51'"><option value="1" selected="">第1页</option><option value="2">第2页</option><option value="3">第3页</option><option value="4">第4页</option><option value="5">第5页</option><option value="6">第6页</option></select></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <ul class="imglist">
+                    {xiao:list catid=44 num=12 order=time}
+                    <li>
+                        <a href="{xiao:$xiao['url']}" target="_blank" title="{xiao:$xiao['title']}"><img width="160" height="120" src="{xiao:function.thumb($xiao[thumb],220,40)}"><br>{xiao:function.strcut($xiao[title],25,'...')}</a>
+                    </li>
+                    {/xiao:list}
+                    <div class="clear"></div>
+                </ul>
+            </div>
+            <table border="0" cellspacing="0" cellpadding="0" width="100%" height="25">
+                <tbody>
+                    <tr>
+                        <td><img border="0" src="{xiao:$site_template}images/First.gif"> &nbsp;<img border="0" src="{xiao:$site_template}images/Previous.gif"> &nbsp;第 <font color="#FF0000">1</font> 页 &nbsp;<a href="/Tmp/Nav_fagui.shtml?whichpage=2&amp;SS_ID=51"><u><img border="0" src="{xiao:$site_template}images/Next.gif"></u></a> &nbsp;<a href="/Tmp/Nav_fagui.shtml?whichpage=6&amp;SS_ID=51"><u><img border="0" src="{xiao:$site_template}images/Last.gif"></u></a> &nbsp;共 <font color="#FF0000">6</font> 页 <font color="#FF0000">61</font> 条 &nbsp;</td>
+                        <td align="right">&nbsp;&nbsp;<select name="toPage" onchange="location.href='/Tmp/Nav_fagui.shtml?whichpage=' + this.options[this.selectedIndex].value + '&amp;SS_ID=51'"><option value="1" selected="">第1页</option><option value="2">第2页</option><option value="3">第3页</option><option value="4">第4页</option><option value="5">第5页</option><option value="6">第6页</option></select></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <!--页面右侧内容 结束-->
+        <div class="clear"></div>
+    </div>
+</div>
+<!--创建文明专栏列表 结束-->
+{xiao:template footer.html}

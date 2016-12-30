@@ -1,0 +1,212 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf8">
+	<title>六安市自来水公司</title>
+	<meta name="keywords" content="六安市自来水公司|自来水公司|自来水|六安自来水|六安自来水抢修|六安市自来水|六安供水|六安市供水">
+	<meta name="description" content="六安市自来水公司 自来水公司 自来水">
+	<link href="<?php echo $site_template; ?>images/lonsun.css" rel="stylesheet" type="text/css">
+	<script type="text/javascript" src="<?php echo $site_url; ?>core/img/js/xxk.js"></script>
+	<script type="text/javascript" src="<?php echo $site_url; ?>core/img/js/jquery.js"></script>
+	<script type="text/javascript" src="<?php echo $site_url; ?>core/img/js/movead.js"></script>
+	<script type="text/javascript" src="<?php echo $site_url; ?>core/img/js/jquery.min.js"></script>
+	<script type="text/javascript" src="<?php echo $site_url; ?>core/img/js/jquery1.42.min.js"></script>
+	<script type="text/javascript" src="<?php echo $site_url; ?>core/img/js/jquery.SuperSlide.2.1.1.js"></script>
+	<style type="text/css">
+
+		/* 导航栏样式 开始*/
+		*{margin:0; padding:0; list-style:none; }
+		body{ background:#fff; font:normal 12px/22px 宋体;  }
+		img{ border:0;  }
+		a{ text-decoration:none; color:#333;  }
+		a:hover{ color:#FF8400;  }
+		.js{width:90%; margin:10px auto 0 auto; }
+		.js p{ padding:5px 0; font-weight:bold; overflow:hidden;  }
+		.js p span{ float:right; }
+		.js p span a{ color:#f00; text-decoration:underline;   }
+		.js textarea{ height:190px;  width:98%; padding:5px; border:1px solid #ccc; border-top:2px solid #aaa;  border-left:2px solid #aaa;  }
+
+		.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
+		.navBar{  position:relative; z-index:1; padding-left:10px;   height:37px; line-height:37px; background:url(/ZWwater/template/default/images/lanmu.png) repeat-x 0 bottom #fff; color:#333;   }
+		.nav{ position:relative; width:980px; margin:0 auto;  font-family:"Microsoft YaHei",SimSun,SimHei; font-size:14px; }
+		.nav a{ color:#000000;  }
+		.nav h3{ font-size:16px; font-weight:normal;   }
+		.nav .m{ float:left;  position:relative; z-index:1; }
+		.nav .s{ float:left; width:5px; text-align:center; color:#000000; font-size:12px; }
+		.nav h3 a{ display:block; width:102px; text-align:center;   font-weight:bold;  }
+		.nav .sub{ display:none; /*默认隐藏*/  position:absolute; left:-3px; top:37px; z-index:1; width:102px; border:1px solid #E6E4E3; border-top:0;}
+		.nav .sub li{background-color:#f90; text-align:center; padding:0px 1px; margin-bottom:-5px;   }
+		.nav .sub li a{ display:block;  border-bottom:1px solid #E6E4E3; padding:1px 0px; height:28px; line-height:28px; color:#000000;/*字体颜色*/   }
+		.nav .sub li a:hover{ color:#FE7700;   }
+		.nav .block{ height:3px; width:130px; background:#FE7700; position:absolute; left:0; top:57px; overflow:hidden;  }
+		/*导航栏样式 结束*/
+
+		/*轮播图0样式 开始*/
+		*{margin:0; padding:0; list-style:none; }
+		body{ background:#fff; font:normal 12px/22px 宋体;  }
+		img{ border:0;  }
+		a{ text-decoration:none; color:#333;  }
+		a:hover{ color:#1974A1;  }
+		.js{width:90%; margin:10px auto 0 auto; }
+		.js p{ padding:5px 0; font-weight:bold; overflow:hidden;  }
+		.js p span{ float:right; }
+		.js p span a{ color:#f00; text-decoration:underline;   }
+		.js textarea{ height:100px;  width:98%; padding:5px; border:1px solid #ccc; border-top:2px solid #aaa;  border-left:2px solid #aaa;  }
+
+		.focusBox { position: relative; width: 970px; height: 240px; overflow: hidden; font: 12px/1.5 Verdana, Geneva, sans-serif; text-align: left; background: white; }
+		.focusBox .pic img { width: 970px; height: 240px; display: block; }
+		.focusBox .txt-bg { position: absolute; bottom: 0; z-index: 1; height: 36px; width:100%;  background: #333; filter: alpha(opacity=40); opacity: 0.4; overflow: hidden; }
+		.focusBox .txt { position: absolute; bottom: 0; z-index: 2; height: 36px; width:100%; overflow: hidden; }
+		.focusBox .txt li{ height:36px; line-height:36px; position:absolute; bottom:-36px;}
+		.focusBox .txt li a{ display: block; color: white; padding: 0 0 0 10px; font-size: 12px; font-weight: bold; text-decoration: none; }
+		.focusBox .num { position: absolute; z-index: 3; bottom: 8px; right: 8px; }
+		.focusBox .num li{ float: left; position: relative; width: 18px; height: 15px; line-height: 15px; overflow: hidden; text-align: center; margin-right: 1px; cursor: pointer; }
+		.focusBox .num li a,.focusBox .num li span { position: absolute; z-index: 2; display: block; color: white; width: 100%; height: 100%; top: 0; left: 0; text-decoration: none; }
+		.focusBox .num li span { z-index: 1; background: black; filter: alpha(opacity=50); opacity: 0.5; }
+		.focusBox .num li.on a,.focusBox .num a:hover{ background:#f60;  }
+		/*轮播图0样式 结束*/
+
+		/*轮播图1样式 开始*/
+		*{margin:0; padding:0; list-style:none; }
+		body{ background:#fff; font:normal 12px/22px 宋体;  }
+		img{ border:0;  }
+		a{ text-decoration:none; color:#333;  }
+		a:hover{ color:#1974A1;  }
+		.js{width:90%; margin:10px auto 0 auto; }
+		.js p{ padding:5px 0; font-weight:bold; overflow:hidden;  }
+		.js p span{ float:right; }
+		.js p span a{ color:#f00; text-decoration:underline;   }
+		.js textarea{ height:50px;  width:98%; padding:5px; border:1px solid #ccc; border-top:2px solid #aaa;  border-left:2px solid #aaa;  }
+
+		.slideBox{ height: 336px; overflow: hidden; width: 546px; position:relative;  }
+		.slideBox .hd{ width: 546px; height: 32px; position:absolute; top:305px; z-index:1; }
+		.slideBox .hd li{width:109.2px;float:left;height:32px;line-height:32px;overflow:hidden; color:#fff;text-align:center; cursor:pointer; }
+		.slideBox .hd li.on{color:#FFF;background:#21b6bb;text-decoration:none;}
+		.slideBox .bd li{ width:546px;height:336px; overflow:hidden;    }
+		.slideBox .bd img{ width:546px;height:336px; overflow:hidden;    }
+		.slideBox .txtBg{ position:absolute; width:100%; height:32px;   top:305px; background:#EEDDD6; filter:alpha(opacity=60);opacity:0.6;  }
+		/*轮播图1样式 结束*/
+
+		/*轮播图2样式 开始*/
+		*{margin:0; padding:0; list-style:none; }
+		body{ background:#fff; font:normal 12px/22px 宋体; width:100%; }
+		img{ border:0;  }
+		a{ text-decoration:none; color:#333;  }
+		a:hover{ color:#1974A1;  }
+		#footer{ text-align:center;  }
+		.js{width:90%; margin:10px auto 0 auto; }
+		.js p{ padding:5px 0; font-weight:bold; overflow:hidden;  }
+		.js p span{ float:right; }
+		.js p span a{ color:#f00; text-decoration:underline;   }
+		.js textarea{ height:50px;  width:98%; padding:5px; border:1px solid #ccc; border-top:2px solid #aaa;  border-left:2px solid #aaa;  }
+
+		.slider{ width:1002px; margin:0 auto;  position:relative; overflow:hidden;   height:80px;; background:#000;  }
+		.slider .bd{ position:relative; z-index:0;  }
+		.slider .bd li{ height:336px; overflow:hidden; }
+		.slider .bd li img{ display:block;  }
+
+		.slider .hd{ width:100%;  position:absolute; z-index:1; bottom:0; left:0; height:30px; line-height:30px; }
+		.slider .hd ul{ text-align:center;  }
+		.slider .hd ul li{ cursor:pointer; display:inline-block; *display:inline; zoom:1; width:9px; height:9px; margin:0 4px;
+			background:url(images/dot.png) 0 -16px;
+			overflow:hidden;  filter:alpha(opacity=70);opacity:0.7;  vertical-align:top; line-height:9999px;
+		}
+		.slider .hd ul .on{ background-position:0 0;  }
+		.slider .timer{ position:absolute; z-index:1; left:0; bottom:0; height:4px; width:0; background:#000; filter:alpha(opacity=40);opacity:0.4; font-size:0; overflow:hidden;   }
+		/*轮播图2样式 结束*/
+	</style>
+</head>
+<body>
+
+<!--顶部图片 开始-->
+	<div class="top">
+		<div class="topban" style="position:relative;">
+			<img style="height:82px;width:100%" src="<?php $this->block(11);?>" />
+			<div class="clear"></div>
+		</div>
+	</div>
+<!--顶部图片 结束-->
+
+<!--导航栏 开始-->
+	<div class="navBar">
+		<ul class="nav clearfix">
+			<li class="m">
+				<h3><a target="_blank" href="<?php echo $site_url; ?>">网站首页</a></h3>
+			</li>
+			<?php $return = $this->_category("num=8");  if (is_array($return))  foreach ($return as $key=>$xiao) { $allchildids = @explode(',', $xiao['allchildids']);    $current = in_array($catid, $allchildids);?>
+			<li class="s">|</li>
+			<li class="m">
+				<h3><a href="<?php echo $xiao['url']; ?>"><?php echo $xiao['catname']; ?></a></h3>
+				<?php if ($xiao['child']) { ?>
+				<ul class="sub">
+					<?php $return = $this->_category("parentid=$xiao[catid]");  if (is_array($return))  foreach ($return as $key=>$xiao) { $allchildids = @explode(',', $xiao['allchildids']);    $current = in_array($catid, $allchildids);?>
+					<li style="width:102px;"><a href="<?php echo $xiao['url']; ?>"><?php echo $xiao['catname']; ?></a></li>
+					<?php } ?>
+				</ul>
+				<?php } ?>
+			</li>
+			<?php } ?>
+		</ul>
+	</div>
+
+	<!--导航栏js 开始-->
+	<script type="text/javascript">
+        (function(){
+            var ind = 0; //初始位置
+            var nav= jQuery(".nav");
+            var init = jQuery(".nav .m").eq(ind);
+            var block = jQuery(".nav .block"); //滑块
+            block.css({"left":init.position().left-3}); //初始化滑块位置
+            nav.hover(function(){},function(){ block.animate({"left":init.position().left-3},100); }); //移出导航滑块返回
+
+            jQuery(".nav").slide({
+                type:"menu", //效果类型
+                titCell:".m", // 鼠标触发对象
+                targetCell:".sub", // 效果对象，必须被titCell包含
+                delayTime:300, // 效果时间
+                triggerTime:0, //鼠标延迟触发时间
+                returnDefault:true,//on返回初始位置
+                defaultIndex:ind,//初始位置
+                startFun:function(i,c,s,tit){ //控制当前滑块位置
+                    block.animate({"left":tit.eq(i).position().left-3},100);
+                }
+            });
+        })()
+	</script>
+	<!--导航栏js 结束-->
+<!--导航栏 结束-->
+
+	<!--轮播图0 开始-->
+	<div class="focusBox" style="margin:0 auto">
+		<ul class="pic">
+			<li><img src="<?php $this->block(12);?>"/></li>
+			<li><img src="<?php $this->block(13);?>"/></li>
+			<li><img src="<?php $this->block(14);?>"/></li>
+		</ul>
+		<div class="txt-bg"></div>
+		<div class="txt">
+			<ul>
+				<li><a href="#">卓越源于更高追求</a></li>
+				<li><a href="#">勇于开拓创新 不断超越自我</a></li>
+				<li><a href="#">合作共赢 共创未来</a></li>
+			</ul>
+		</div>
+
+		<ul class="num">
+			<li><a>1</a><span></span></li>
+			<li><a>2</a><span></span></li>
+			<li><a>3</a><span></span></li>
+		</ul>
+	</div>
+
+	<!--轮播图0js 开始-->
+	<script type="text/javascript">
+        jQuery(".focusBox").slide({ titCell:".num li", mainCell:".pic",effect:"fold", autoPlay:true,trigger:"click",
+            //下面startFun代码用于控制文字上下切换
+            startFun:function(i){
+                jQuery(".focusBox .txt li").eq(i).animate({"bottom":0}).siblings().animate({"bottom":-36});
+            }
+        });
+	</script>
+	<!--轮播图0js 结束-->
+<!--轮播图0 结束-->
+

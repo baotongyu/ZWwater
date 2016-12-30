@@ -1,0 +1,249 @@
+{xiao:template header.html}
+<!--网上报修 开始-->
+<div class="div1002">
+    <div class="mainbox" style="margin-top:0px">
+        <!--页面左侧内容 开始-->
+        {xiao:template left.html}
+        <!--页面左侧内容 结束-->
+
+        <!--页面右侧内容 开始-->
+        <div class="right leftbox">
+            <div class="dqlanmu dqwztit">您当前所在的位置 ： <a href={xiao:$site_url}>首页</a> >> {xiao:function.position($catid,' >> ')}</div>
+            <div class="border navjz" id="mm2">
+                <table align="center" width="98%" cellpadding="0" cellspacing="0">
+                    <form name="form1" method="get" action=""></form>
+                    <tbody>
+                    <tr>
+                        <td height="35">
+                            <table width="100%" height="35" border="0" cellpadding="0" cellspacing="0" style="font-size: 12px;color: #333333;">
+                                <tbody>
+                                <tr>
+                                    <td>
+                                        <table border="0" cellspacing="0" cellpadding="0" width="100%" height="25">
+                                            <tbody>
+                                            <tr>
+                                                <td><img border="0" src="{xiao:$site_template}images/First.gif"> &nbsp;<img border="0" src="{xiao:$site_template}images/Previous.gif"> &nbsp;第 <font color="#FF0000">1</font> 页 &nbsp;<a href="/Tmp/Nav_fuwu.shtml?whichpage=2&amp;action=show&amp;SS_ID=26&amp;SearchStr="><u><img border="0" src="{xiao:$site_template}images/Next.gif"></u></a> &nbsp;<a href="/Tmp/Nav_fuwu.shtml?whichpage=7&amp;action=show&amp;SS_ID=26&amp;SearchStr="><u><img border="0" src="{xiao:$site_template}images/Last.gif"></u></a> &nbsp;共 <font color="#FF0000">7</font> 页 <font color="#FF0000">34</font> 条 &nbsp;</td>
+                                                <td align="right">&nbsp;&nbsp;<select name="toPage" onchange="location.href='/Tmp/Nav_fuwu.shtml?whichpage=' + this.options[this.selectedIndex].value + '&amp;action=show&amp;SS_ID=26&amp;SearchStr='"><option value="1" selected="">第1页</option><option value="2">第2页</option><option value="3">第3页</option><option value="4">第4页</option><option value="5">第5页</option><option value="6">第6页</option><option value="7">第7页</option></select></td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                    <td align="right"><input type="hidden" name="SS_ID" value="26"><input name="SearchStr" type="text" id="SearchStr" style="font-size: 12px;color: #333333;" value="" size="10" maxlength="50">
+                                        <input type="submit" name="Submit" value="搜索" style="font-size:12px" accesskey="S">
+                                        <input type="button" name="Submit2" value="留言" accesskey="W" onclick="location.href='?SS_ID=26'" style="font-size:12px;display:none">
+                                        <input type="hidden" name="action" value="search"></td>
+
+                                </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+
+                <!--留言内容 START-->
+                <table width="98%" border="0" align="center" cellpadding="2" cellspacing="1" bgcolor="#D4D4D4" style="font-size: 12px;color: #333333;">
+                    <tbody>
+                    <tr bgcolor="#FFFFFF">
+                        <td height="25" colspan="2" bgcolor="#DFDFDF">&nbsp;<b>主题：居民用水到户价多少？</b></td>
+                    </tr>
+                    <tr bgcolor="#FFFFFF">
+                        <td width="100" rowspan="2" align="center" bgcolor="FAFAFA">
+                            <table border="0" cellspacing="1" cellpadding="4" style="font-size: 12px;color: #333333;">
+                                <tbody>
+                                <tr>
+                                    <td align="center">惜<br></td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                        <td height="25" bgcolor="FAFAFA">&nbsp;第&nbsp;34&nbsp;条&nbsp;留言&nbsp;是&nbsp;惜
+                            &nbsp;在&nbsp;2015-7-16&nbsp;16:44:41&nbsp;发表的</td>
+                    </tr>
+                    <tr bgcolor="#FFFFFF">
+                        <td valign="top">
+                            <table width="100%" border="0" cellspacing="10" cellpadding="0" style="font-size: 12px;color: #333333;">
+                                <tbody>
+                                <tr>
+                                    <td valign="top">
+                                        从你们网上查询居民用水到户价是1.9元，为什么三里桥营业厅是2.04元？
+                                        <br>
+                                        <br>
+                                        <table style="BORDER-RIGHT: #48818A 1px dotted; TABLE-LAYOUT: fixed; BORDER-TOP: #48818A 1px dotted; BORDER-LEFT: #48818A 1px dotted; BORDER-BOTTOM: #48818A 1px dotted" cellspacing="0" cellpadding="6" width="98%" align="center" border="0">
+                                            <tbody>
+                                            <tr>
+                                                <td style="WORD-WRAP: break-word" bgcolor="#FFFFFF"><span style="font-size: 12px;color: #CC6600;">回复：<font face="宋体">依据六安市物价局《关于调整六安城区供水价格和居民生活用水实行阶梯水价的批复》<br>（六价业</font><font class="font7">[2015]30</font><font class="font0" face="宋体">号）文件规定，自2015年5月1日起执行阶梯水价，详见我公司网站最新发布。</font><br>
+时间：2015-7-20 16:30:03</span><br></td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+                <!--留言内容 END-->
+
+                <table align="center" width="98%" cellpadding="0" cellspacing="0"><tbody><tr><td height="5"></td></tr></tbody></table>
+                <table align="center" width="98%" cellpadding="0" cellspacing="0">
+                    <form name="form2" method="Get" action=""></form>
+                    <tbody>
+                    <tr>
+                        <td height="35">
+                            <table width="100%" height="35" border="0" cellpadding="0" cellspacing="0" style="font-size: 12px;color: #333333;">
+                                <tbody>
+                                <tr>
+                                    <td>
+                                        <table border="0" cellspacing="0" cellpadding="0" width="100%" height="25">
+                                            <tbody>
+                                            <tr>
+                                                <td><img border="0" src="{xiao:$site_template}images/First.gif"> &nbsp;<img border="0" src="{xiao:$site_template}images/Previous.gif"> &nbsp;第 <font color="#FF0000">1</font> 页 &nbsp;<a href="/Tmp/Nav_fuwu.shtml?whichpage=2&amp;action=show&amp;SS_ID=26&amp;SearchStr="><u><img border="0" src="{xiao:$site_template}images/Next.gif"></u></a> &nbsp;<a href="/Tmp/Nav_fuwu.shtml?whichpage=7&amp;action=show&amp;SS_ID=26&amp;SearchStr="><u><img border="0" src="{xiao:$site_template}images/Last.gif"></u></a> &nbsp;共 <font color="#FF0000">7</font> 页 <font color="#FF0000">34</font> 条 &nbsp;</td>
+                                                <td align="right">&nbsp;&nbsp;<select name="toPage" onchange="location.href='/Tmp/Nav_fuwu.shtml?whichpage=' + this.options[this.selectedIndex].value + '&amp;action=show&amp;SS_ID=26&amp;SearchStr='"><option value="1" selected="">第1页</option><option value="2">第2页</option><option value="3">第3页</option><option value="4">第4页</option><option value="5">第5页</option><option value="6">第6页</option><option value="7">第7页</option></select></td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                    <td align="right">
+                                        <input type="hidden" name="SS_ID" value="26"><input name="SearchStr" type="text" id="SearchStr" style="font-size: 12px;color: #333333;" value="" size="10" maxlength="50">
+                                        <input type="submit" name="Submit" value="搜索" style="font-size:12px" accesskey="S">
+                                        <input type="button" name="Submit22" value="留言" accesskey="W" onclick="location.href='?SS_ID=26'" style="font-size:12px;display:none">
+                                        <input type="hidden" name="action2" value="search"></td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+                <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0"><tbody><tr><td height="10"> </td></tr></tbody></table>
+                <!--中文开始-->
+
+                <script language="JavaScript" type="text/JavaScript">
+                    <!--
+                    //表单提交验证
+                    function input_ok(ok){
+                        var text="";
+
+                        //如果指定受理单位,进行判断
+
+                        //验证呢称
+
+                        //验证Email
+                        // var M3=ok.m_Email.value;
+                        //var L3=M3.length;
+                        //if (M3!="")
+                        //{
+                        //var tag=0;
+                        // for (var i=0; i<L3; i++){
+                        //   var C3=M3.substring(i,i+1)
+                        //   if(C3=='"'||C3=="'"){
+                        //     text=text+"[电邮] 中不能包含单字节的单双引号；\n";
+                        //	  tag=1;}
+                        //   if(C3=='@'){tag=1;}
+                        //   }
+                        //  if (tag==0){text=text+"[电邮] 地址拼写错误！\n"}
+                        // }
+
+                        //验证主题
+                        var M5 = ok.m_Subject.value;
+                        if (M5 == ""){text=text+"[主题] 不能为空；\n"}
+
+
+                        //验证留言
+                        var M2 = ok.m_Contents.value;
+                        var L2 = M2.length;
+                        if (M2 == ""){text=text+"[留言] 不能为空；\n"}
+                        else {if (L2 > 1000) {text=text+"[留言] 超出1000字符；\n"}}
+
+
+
+                        //向页面反馈信息
+                        if (text == ""){
+                            document.messageform.submit();}
+                        else{
+                            alert("出错提示：\n\n"+text);
+                            return false;
+                        }
+                    }
+
+                    //查看留言长度
+                    function viewlen() {
+                        var M1 = messageform.m_Contents.value;
+                        var L1 = M1.length;
+                        alert("留言已有"+L1+"个字符; \n最大字符数为1000个字符;");
+                    }
+                    -->
+                </script>
+                <form name="messageform" method="post" action="">
+                    <table width="98%" border="0" align="center" cellpadding="0" cellspacing="1" bgcolor="#CCCCCC">
+                        <tbody>
+                            <tr>
+                                <td bgcolor="#FFFFFF">
+                                    <table cellspacing="0" cellpadding="0" width="668" border="0">
+                                        <tbody>
+                                            <tr>
+                                                <td colspan="2" align="center" style="height: 100px; width: 100%">&nbsp;&nbsp;&nbsp;&nbsp;
+                                                    <input type="image" name="" id="" src="http://www.luanwater.com/system/wsbx01.gif" style="border-width:0px;"><br>
+
+                                                    <hr style="color: Red;">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width: 30%;" align="right"> 标题： </td>
+                                                <td style="width: 70%; height: 30px;" align="left"><input name="m_Subject" type="text" id="" style="width:200px;"></td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width: 30%;" align="right"> 姓名： </td>
+                                                <td style="width: 70%; height: 30px;" align="left"><input name="m_Name" type="text" id="" style="width:200px;"></td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width: 30%;" align="right"> 地址： </td>
+                                                <td style="width: 70%; height: 30px;" align="left"><input name="m_Web" type="text" id="" style="width:200px;"></td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width: 30%;" align="right"> 用户编号： </td>
+                                                <td style="width: 70%; height: 30px;" align="left"><input name="m_QQ" type="text" maxlength="8" id="" onchange="" style="width:200px;"></td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width: 30%;" align="right"> 联系电话： </td>
+                                                <td style="width: 70%; height: 30px;" align="left"><input name="m_Tel" type="text" id="" style="width:200px;"></td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width: 30%;" align="right"> 邮箱： </td>
+                                                <td style="width: 70%; height: 30px;" align="left"><input name="m_Email" type="text" id="" style="width:200px;"></td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width: 30%;" align="right"> 内容： </td>
+                                                <td style="width: 70%; height: 150px;" align="left"><textarea name="m_Contents" rows="2" cols="20" id="" style="height:150px;width:90%;"></textarea></td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width: 30%;" align="right"></td>
+                                                <td style="width: 70%; height: 50px;" align="left">
+                                                    <input name="SS_ID" type="hidden" id="SS_ID" value="48">
+                                                    <input name="xaction" type="hidden" id="xaction" value="add">
+                                                    <input type="button" name="Button" value="发送留言(S)" accesskey="S" onclick="input_ok(document.messageform)">
+                                                    <input type="button" name="Submit2" value="查阅留言(W)" accesskey="W" onclick="location.href='?SS_ID=48&amp;action=show'" style="display:none"></td>
+                                            </tr>
+                                            <tr>
+                                                <td colspan="2"></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </form>
+                <!--中文结束-->
+                <div class="clear"></div>
+            </div>
+        </div>
+        <!--页面右侧内容 结束-->
+        <div class="clear"></div>
+    </div>
+</div>
+<!--网上报修 结束-->
+{xiao:template footer.html}

@@ -1,0 +1,34 @@
+{xiao:template header.html}
+<!--网上服务 开始-->
+<div class="div1002">
+    <div class="mainbox" style="margin-top:0px">
+        <!--页面左侧内容 开始-->
+        {xiao:template left.html}
+        <!--页面左侧内容 结束-->
+
+        <!--页面右侧内容 开始-->
+        <div class="right leftbox">
+            <div class="dqlanmu dqwztit">您当前所在的位置 ： <a href="{xiao:$site_url}">首页</a> >> {xiao:function.position($catid,' >> ')}</div>
+            <div class="chaxun">
+                <div class="cxlist">
+                    <ul>
+                        <li class="se1">
+                            <input name="HH" id="HH" style="height:21px; border:0px;color:#bfbebe; line-height:21px; outline:none; width:272px; background:none;" type="text" onfocus="javascript:if (this.value=='请输入用户号') this.value='';" onblur="javascript:if (this.value=='') {this.value='请输入用户号';}" value="请输入用户号" size="24">
+                        </li>
+                        <li class="se2"><input type="text" name="checkcode" id="checkcode" style="width:72px; height:23px; line-height:23px; background:none; border:none;"></li>
+                        <li class="se3"><img src="{xiao:$site_url}core/img/checkcode.shtml" onclick="this.src='{xiao:$site_url}core/img/checkcode.shtml?'+new Date().getTime()" ;="" id="checkcodeimg"></li>
+                        <li class="se4">
+                            <input name="submitt" id="dosub" type="image" src="{xiao:$site_template}images/cx_btn.jpg" value="搜索" style="border-top: none;	">
+                        </li>
+                    </ul>
+                </div>
+                <div class="cx_wz">1.请输入正确的户号（由6位数字组成）<br>
+                    2.户号请在水费发票、水费通知单或到辖区营业所查询。</div>
+            </div>
+        </div>
+        <!--页面右侧内容 结束-->
+        <div class="clear"></div>
+    </div>
+</div>
+<!--网上服务 结束-->
+{xiao:template footer.html}

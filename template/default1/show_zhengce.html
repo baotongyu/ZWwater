@@ -1,0 +1,27 @@
+{xiao:template header.html}
+<!--政策法规内容展示 开始-->
+<div class="div1002">
+    <div class="mainbox" style="margin:0 auto;height:auto">
+        <div class="dqwz dqwztit">您当前所在的位置： <a href="/">首页</a> >> {xiao:function.position($catid,' >> ')}</div>
+        <div class="border secnr">
+            <div id="wenzhang">
+                <div class="wztit"><b>{xiao:$title}</b></div>
+                <div class="wzfbt"></div>
+                <div class="wzbjxx">发布时间：{xiao:function.date("Y-m-d H:i:s",$time)} 来源：六安市自来水公司 </div>
+                <div class="content">{xiao:$content}</div>
+                <hr>
+                <div class="wzbot" style="clear:both;">
+                    <script language="javascript" src="/system/sys0_inc_docnav.shtml?d_ID=495"></script>
+                    {xiao:if $prev_page}
+                    <b>上一篇</b>：<a href="{xiao:$prev_page['url']}">{xiao:$prev_page['title']}</a><br>
+                    {/xiao:if}
+                    {xiao:if $next_page}
+                    <b>下一篇</b>：<a href="{xiao:$next_page['url']}">{xiao:$next_page['title']}</a>
+                    {/xiao:if}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--政策法规内容展示 结束-->
+{xiao:template footer.html}

@@ -1,0 +1,35 @@
+{xiao:template header.html}
+<!--新闻中心列表 开始-->
+<div class="div1002">
+    <div class="mainbox" style="margin-top:0px">
+        <!--页面左侧内容 开始-->
+        {xiao:template left.html}
+        <!--页面左侧内容 结束-->
+
+        <!--页面右侧内容 开始-->
+        <div class="right leftbox">
+            <div class="dqlanmu dqwztit">您当前所在的位置 ： <a href="{xiao:$site_url}">首页</a> >> {xiao:function.position($catid,' >> ')}</div>
+            <div class="border navjz" id="mm2">
+                <div>
+                    {xiao:nav parentid=$catid typeid=1}
+                    <a href="{xiao:$xiao['url']}"><b>{xiao:$xiao['catname']}</b></a>
+                    <span style="float:right"><a href="{xiao:$xiao['url']}">更多 &gt;&gt;</a></span>
+
+                    <ul>
+                        {xiao:list catid=$xiao[catid] num=3 order=time}
+                        <li>
+                            <a href="{xiao:$xiao['url']}" target="_blank" title="">{xiao:$xiao['title']}</a><span style="float:right;"><font color="#999999">{xiao:function.date("Y-m-d",$xiao['time'])}</font></span>
+                        </li>
+                        {/xiao:list}
+                    </ul>
+                    {/xiao:nav}
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+        <!--页面右侧内容 结束-->
+        <div class="clear"></div>
+    </div>
+</div>
+<!--新闻中心列表 结束-->
+{xiao:template footer.html}

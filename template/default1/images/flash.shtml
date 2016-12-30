@@ -1,0 +1,28 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf8" />
+<title>六安市自来水公司</title>
+<meta name="keywords" content="六安市自来水公司|自来水公司|自来水|六安自来水|六安自来水抢修|六安市自来水|六安供水|六安市供水">
+<meta name="description" content="六安市自来水公司 自来水公司 自来水">
+<link href="./lonsun.css" rel="stylesheet" type="text/css">
+<SCRIPT type=text/javascript src="../../../core/img/js/xxk.js"></SCRIPT>
+<script type="text/javascript" src="../../../core/img/js/jquery.js"></script>
+<script type="text/javascript" src="../../../core/img/js/jquery.superslide.2.1.1.js"></script>
+</head>
+
+<body>
+<script src="../../../core/img/js/jquery-1.4a2.min.js" type="text/javascript"></script>
+<script src="../../../core/img/js/jquery.KinSlideshow-1.2.1.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+$(function(){ $("#KinSlideshow").KinSlideshow({ titleFont:{TitleFont_size:12,TitleFont_color:"#FFFFFF",TitleFont_weight:"bold"},titleBar:{titleBar_height:28},btn:{ btn_bgHoverColor:"#068e46",btn_bgColor:"#fff"} }); })</script>
+<div id="KinSlideshow" style="visibility:hidden;background-color:#F4F4F4">
+    <a href="{xiao:$xiao['url']}" target="_blank"><img src="{xiao:block 8}" alt="{xiao:$xiao['title']}" width="546" height="336" /></a>
+    <a href="http://www.luanwater.com/UserData/DocHtml/1/2016/12/5/98053719909.html" target="_blank"><img src="{xiao:block 3}" alt="市自来水公司团委组织参加“助力创城 青春扶贫..." width="546" height="336" /></a>
+    <a href="http://www.luanwater.com/UserData/DocHtml/1/2016/12/5/21642434907.html" target="_blank"><img src="{xiao:block 2}" alt="防寒保温早行动 措施得力保供水" width="546" height="336" /></a>
+    <a href="http://www.luanwater.com/UserData/DocHtml/1/2016/12/2/20314461902.html" target="_blank"><img src="{xiao:block 1}" alt="认真贯彻会议精神，组织开展安全生产大检查" width="546" height="336" /></a>
+    <a href="http://www.luanwater.com/UserData/DocHtml/1/2016/11/29/68342568898.html" target="_blank"><img src="{xiao:block 7}" alt="积极应对突发险情，快速抢修DN1000供水管道" width="546" height="336" /></a>
+</div>
+</body>
+</html>

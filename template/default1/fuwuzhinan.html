@@ -1,0 +1,19 @@
+{xiao:template header.html}
+<div class="div1002">
+    <div class="mainbox" style="margin-top:0px">
+        <!--页面左侧内容 开始-->
+        {xiao:template left.html}
+        <!--页面左侧内容 结束-->
+
+        <!--页面右侧内容 开始-->
+        <div class="right leftbox">
+            <div class="dqlanmu dqwztit">您当前所在的位置 ： <a href="{xiao:$site_url}">首页</a> >> {xiao:function.position($catid,' >> ')} >> 服务承诺</div>
+            <div class="border navjz" id="mm2"><p align="left"><font style="FONT-SIZE: 15px"><font style="FONT-SIZE: 16px"><font style="FONT-SIZE: 15px"><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </strong></font></font></font></p><font style="FONT-SIZE: 15px"><font style="FONT-SIZE: 16px"><font style="FONT-SIZE: 15px"><strong>
+                <div class="content">{xiao:$content}</div>
+            </div>
+        </div>
+        <!--页面右侧内容 结束-->
+        <div class="clear"></div>
+    </div>
+</div>
+{xiao:template footer.html}
